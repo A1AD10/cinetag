@@ -23,7 +23,7 @@ function Player() {
     
     return(
         <>
-            <Banner imagem="player" />
+            <Banner imagem="Player" />
             <Titulo>
                 <h1>Player</h1>
             </Titulo>

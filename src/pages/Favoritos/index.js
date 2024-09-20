@@ -8,7 +8,7 @@ function Favoritos() {
     const { favoritos } = useFavoritoContext()
     return (
         <>
-            <Banner imagem="favoritos"></Banner>
+            <Banner imagem="Favoritos"></Banner>
             <Titulo><h1>Meus Favoritos</h1></Titulo>
             <section className={styles.container}>
                 {favoritos.map((fav) => {
