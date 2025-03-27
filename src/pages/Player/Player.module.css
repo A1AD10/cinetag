@@ -1,3 +1,11 @@
 iframe {
     height: 80vh;
 }
+
+@media (max-width: 768px) {
+    iframe {
+        width: 34em;
+        height: 19em;
+        margin: 0.5em 0 5em;
+    }
+}

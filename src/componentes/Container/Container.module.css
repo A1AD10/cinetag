@@ -2,3 +2,12 @@
     margin: 2em 10em;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .container section {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
